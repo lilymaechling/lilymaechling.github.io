@@ -19,6 +19,12 @@ h1 {
     margin-bottom: 3%;
 }
 
+h2 {
+    text-align: center;
+    font-family: 'Varela Round';
+    font-size: 36px;
+}
+
 ul {
     list-style-type: none;
     font-family: 'Varela Round';
@@ -81,8 +87,6 @@ h3 {
     font-weight: bolder;
 }
 
-
-/* CSS for aboutme.html */
 .aboutMeLine{
     flex-direction: row;
     display: flex;
@@ -272,4 +276,19 @@ ul#small{
 
 ul#medium{
     font-size: 20px;
+}
+
+.techBoxes{
+    flex-direction: row;
+    display: flex;
+}
+
+.techBox{
+    justify-content: center;
+    height: 50%;
+    width: 20%;
+}
+
+img#tech {
+    width: 100%;
 }
